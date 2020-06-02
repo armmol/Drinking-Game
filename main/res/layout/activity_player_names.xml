@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:foreground="#009CD53F"
+    tools:context=".Main2Activity">
+
+
+    <EditText
+        android:id="@+id/Playername"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="46dp"
+        android:layout_marginLeft="46dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="47dp"
+        android:layout_marginRight="46dp"
+        android:ems="10"
+        android:hint="Enter name of Players"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/EnterName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Playername"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="263dp"
+        android:layout_marginLeft="263dp"
+        android:layout_marginTop="31dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginRight="60dp"
+        android:text="Click" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="302dp"
+        android:layout_height="400dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="55dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="264dp"
+        android:layout_marginEnd="54dp"
+        android:layout_marginRight="54dp"
+        android:layout_marginBottom="67dp"
+        app:srcCompat="@drawable/smiling_bottle" />
+</RelativeLayout>

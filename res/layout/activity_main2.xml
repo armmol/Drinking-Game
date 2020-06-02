@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimary"
+    android:foreground="#009CD53F"
+    tools:context=".Main2Activity">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_marginVertical="120dp"
+        android:background="@drawable/alcohol_bottle"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/Number"
+            android:layout_width="match_parent"
+            android:layout_height="134dp"
+            android:ems="10"
+            android:hint="Enter Number of Players(>1)"
+            android:inputType="number"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/start"
+            android:layout_width="245dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="#57FFFFFF"
+            android:text="CLICK HERE" />
+
+    </LinearLayout>
+
+</RelativeLayout>
